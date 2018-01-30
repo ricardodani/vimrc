@@ -1,0 +1,45 @@
+" Search & Navigation
+    Bundle 'mileszs/ack.vim'
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'jistr/vim-nerdtree-tabs'
+    Bundle 'ctrlpvim/ctrlp.vim'
+    " Bundle 'tacahiroy/ctrlp-funky'
+
+" Colors
+    Bundle 'altercation/vim-colors-solarized'
+    Bundle 'spf13/vim-colors'
+    Bundle 'flazz/vim-colorschemes'
+
+" Formatting
+    Bundle 'jiangmiao/auto-pairs'
+    Bundle 'terryma/vim-multiple-cursors'
+    " Bundle 'vim-scripts/sessionman.vim'
+    " Bundle 'nathanaelkane/vim-indent-guides'
+
+" Statusbar
+    Bundle 'vim-airline/vim-airline'
+    Bundle 'vim-airline/vim-airline-themes'
+    Bundle 'powerline/fonts'
+    Bundle 'bling/vim-bufferline'
+    Bundle 'mhinz/vim-signify'
+    Bundle 'osyo-manga/vim-over'
+    Bundle 'gcmt/wildfire.vim'
+
+" General Programming {
+    Bundle 'scrooloose/syntastic'
+    Bundle 'tpope/vim-fugitive'
+    Bundle 'scrooloose/nerdcommenter'
+    Bundle 'tpope/vim-markdown'
+
+" Python {
+    Bundle 'klen/python-mode'
+
+" Javascript {
+    Bundle 'elzr/vim-json'
+    Bundle 'pangloss/vim-javascript'
+
+" HTML {
+    Bundle 'hail2u/vim-css3-syntax'
+
+" Go Lang {
+    Bundle 'fatih/vim-go'
