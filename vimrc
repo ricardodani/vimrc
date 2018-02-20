@@ -1,4 +1,4 @@
-"  .vimrc
+" .vimrc
 " Author: Ricardo Dani
 " Based on spf-13
 
@@ -98,7 +98,6 @@
          set undolevels=1000         " Maximum number of changes that can be undone
          set undoreload=10000        " Maximum number lines to save for undo on a buffer reload
      endif
-
 " UI
      let g:solarized_termcolors=256
      let g:solarized_termtrans=1
@@ -205,10 +204,12 @@
          set guioptions-=T  "toolbar
          set guioptions-=r  "scrollbar
          set lines=40                " 40 lines of text instead of 24
-         set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline:h13
+         set guifont=Space\ Mono\ for\ Powerline\ 12
+         colorscheme solarized
          " colorscheme dracula
-         colorscheme wombat
-         let g:airline_theme = 'wombat'
+         " colorscheme Tomorrow-Night
          " colorscheme blackboard
-         " colorscheme Tomorro:
+         " colorscheme Tomorrow
+         " set bg=light
+         let g:airline_theme = 'solarized'
      endif
