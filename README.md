@@ -6,7 +6,7 @@
 
 ## Installing
 
-```make```
+```./install.sh```
 
 ## Author
 
