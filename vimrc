@@ -99,11 +99,6 @@
          set undoreload=10000        " Maximum number lines to save for undo on a buffer reload
      endif
 " UI
-     let g:solarized_termcolors=256
-     let g:solarized_termtrans=1
-     let g:solarized_contrast="normal"
-     let g:solarized_visibility="normal"
-     color solarized             " Load a colorscheme
      set tabpagemax=15               " Only show 15 tabs
      set showmode                    " Display the current mode
      set cursorline                  " Highlight current line
