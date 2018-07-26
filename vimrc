@@ -160,27 +160,18 @@
      let NERDTreeShowHidden=1
      let NERDTreeKeepTreeInNewTab=1
      let g:nerdtree_tabs_open_on_gui_startup=0
-     " set sessionoptions=blank,buffers,curdir,folds,tabpages,winsize
-     " if isdirectory(expand("~/.vim/bundle/sessionman.vim/"))
-     "     nmap <leader>sl :SessionList<CR>
-     "     nmap <leader>ss :SessionSave<CR>
-     "     nmap <leader>sc :SessionClose<CR>
-     " endif
      " pymode
      let g:pymode_lint_checkers = ['pyflakes']
      let g:pymode_trim_whitespaces = 0
-  ""     let g:pymode_options = 0
      let g:pymode_rope = 0
-      let g:pymode_folding = 0
+     let g:pymode_folding = 0
      " Ctrlp
- 
      let g:ctrlp_map = '<c-p>'
      let g:ctrlp_cmd = 'CtrlP'
      let g:ctrlp_working_path_mode = 'ra'
      let g:ctrlp_custom_ignore = {
          \ 'dir':  '\.git$\|\.hg$\|\.svn$',
          \ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$' }
- 
      let s:ctrlp_fallback = 'ag %s --nocolor -l -g ""'
      let g:ctrlp_user_command = {
          \ 'types': {
@@ -189,22 +180,14 @@
          \ },
          \ 'fallback': s:ctrlp_fallback
      \ }
- 
-     "let g:ctrlp_extensions = ['funky']
-     "nnoremap <Leader>fu :CtrlPFunky<Cr>
- 
- " GUI
+    " GUI
      if has('gui_running')
-         set guioptions-=m  "menu bar
-         set guioptions-=T  "toolbar
-         set guioptions-=r  "scrollbar
-         set lines=40                " 40 lines of text instead of 24
-         set guifont=Space\ Mono\ for\ Powerline\ 12
+         set guioptions-=m
+         set guioptions-=T
+         set guioptions-=r
+         set lines=40
+         set bg=dark
+         set guifont=Space\ Mono\ for\ Powerline\ 10
          colorscheme solarized
-         " colorscheme dracula
-         " colorscheme Tomorrow-Night
-         " colorscheme blackboard
-         " colorscheme Tomorrow
-         " set bg=light
          let g:airline_theme = 'solarized'
      endif
