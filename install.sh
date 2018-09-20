@@ -1,3 +1,5 @@
+#!/bin/sh
+
 if [ -f ~/.vim/bundle ]; then
     mkdir -p ~/.vim/bundle
 fi
