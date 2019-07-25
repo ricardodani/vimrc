@@ -189,6 +189,5 @@
          set lines=60
          set bg=dark
          set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
-         colorscheme solarized
-         let g:airline_theme = 'solarized'
+         colorscheme gruvbox
      endif
