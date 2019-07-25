@@ -187,8 +187,8 @@
          set guioptions-=r
          set lines=60
          set columns=110
-         set bg=light
-         set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 11
+         set bg=dark
+         set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
          colorscheme solarized
          let g:airline_theme = 'solarized'
      endif
