@@ -37,6 +37,7 @@
 " Javascript {
     Bundle 'elzr/vim-json'
     Bundle 'pangloss/vim-javascript'
+    Bundle 'leafgarland/typescript-vim'
 
 " HTML {
     Bundle 'hail2u/vim-css3-syntax'
