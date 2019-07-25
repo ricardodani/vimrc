@@ -126,6 +126,7 @@
      set shiftwidth=4                " Use indents of 4 spaces
      set expandtab                   " Tabs are spaces, not tabs
      set tabstop=4                   " An indentation every four columns
+     set columns=110                  " Define column size
      set softtabstop=4               " Let backspace delete indent
      set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
      set splitright                  " Puts new vsplit windows to the right of the current
@@ -186,7 +187,6 @@
          set guioptions-=T
          set guioptions-=r
          set lines=60
-         set columns=110
          set bg=dark
          set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
          colorscheme solarized
