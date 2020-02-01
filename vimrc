@@ -191,3 +191,8 @@
          set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
          colorscheme gruvbox
      endif
+
+    # Local config
+    if filereadable(expand("~/.vimrc.local"))
+        source ~/.vimrc.local
+    endif
