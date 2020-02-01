@@ -192,7 +192,7 @@
          colorscheme gruvbox
      endif
 
-    # Local config
+    " Local config
     if filereadable(expand("~/.vimrc.local"))
         source ~/.vimrc.local
     endif
