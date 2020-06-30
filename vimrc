@@ -162,10 +162,9 @@
      let NERDTreeKeepTreeInNewTab=1
      let g:nerdtree_tabs_open_on_gui_startup=0
      " pymode
-     let g:pymode_lint_checkers = ['pyflakes']
+     let g:pymode_lint_checkers = ['pyflakes', 'mypy']
      let g:pymode_trim_whitespaces = 0
-     let g:pymode_rope = 0
-     let g:pymode_folding = 0
+     let g:pymode_rope = 1
      " Ctrlp
      let g:ctrlp_map = '<c-p>'
      let g:ctrlp_cmd = 'CtrlP'

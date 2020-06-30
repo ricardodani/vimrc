@@ -33,6 +33,7 @@
 
 " Python {
     Bundle 'klen/python-mode'
+    Bundle 'integralist/vim-mypy'
 
 " Javascript {
     Bundle 'elzr/vim-json'
